@@ -11,11 +11,11 @@
   <body ng-app="ListApp">
 
     <div ng-controller="MainController">
-      <single-list varList="todo"></single-list>
+      <single-list var-list="todo"></single-list>
       <input ng-model="toDoInputText" />
       <button ng-click="addItem(todo.list, toDoInputText)">Add ToDo</button>
 
-      <single-list varList="books"></single-list>
+      <single-list var-list="books"></single-list>
       <input ng-model="bookInputText" />
       <button ng-click="addItem(books.list, bookInputText)">Add Book</button>
     </div>
