@@ -1,10 +1,21 @@
 app.controller('MainController', ['$scope', ($scope) => {
-  $scope.list = [
-    "Here's 1 task",
-    "And here's another!"
-  ];
+  $scope.todo = {
+    title: "ToDo List",
+    list: [
+      "Here's 1 task",
+      "And here's another!"
+    ]
+  };
 
-  $scope.addItem = () => {
-    $scope.list.push($scope.addToDo)
+  $scope.books = {
+    title: "Books List",
+    list: [
+      "Book 1",
+      "Book 2"
+    ]
+  }
+ 
+  $scope.addItem = (itemList, inputText) => {
+    itemList.push(inputText)
   }
 }])
