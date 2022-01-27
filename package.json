@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-directives",
+  "version": "1.0.0",
+  "description": "`npm install`",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikejs/angularjs-directives.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikejs/angularjs-directives/issues"
+  },
+  "homepage": "https://github.com/ikejs/angularjs-directives#readme"
+}
