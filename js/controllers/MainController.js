@@ -1,6 +1,6 @@
 app.controller('MainController', ['$scope', ($scope) => {
   $scope.todo = {
-    title: "ToDo List",
+    title: "things to do",
     list: [
       "Here's 1 task",
       "And here's another!"
@@ -8,7 +8,7 @@ app.controller('MainController', ['$scope', ($scope) => {
   };
 
   $scope.books = {
-    title: "Books List",
+    title: "books to read",
     list: [
       "Book 1",
       "Book 2"
